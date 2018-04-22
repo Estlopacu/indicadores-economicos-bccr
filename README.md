@@ -3,16 +3,12 @@
 
 ## Instalación
 
-OS X y Linux:
-
-```sh
-npm 
-```
+    ```sh
+    npm install indicadores-economicos-bccr
+    ```
 
 ## Meta
 
 Luis Esteban López Acuña – [@estlopacu](https://twitter.com/estlopacu) – estlopacu@gmail.com
-
-Distribuido bajo la licencia XYZ. Ver ``LICENSE`` para más información.
 
 [https://github.com/estlopacu/indicadores-economicos-bccr](https://github.com/estlopacu/)

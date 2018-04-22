@@ -1,6 +1,6 @@
 {
   "name": "indicadores-economicos-bccr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Obtenga el tipo de cambio del dólar del web service del Banco Central de Costa Rica.",
   "main": "index.js",
   "scripts": {
