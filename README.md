@@ -3,7 +3,7 @@
 
 ## Instalación
 
-    ```sh
+    ```
     npm install indicadores-economicos-bccr
     ```
 
