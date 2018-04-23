@@ -3,10 +3,8 @@
 
 ## Instalación
 
-    ```
     npm install indicadores-economicos-bccr
-    ```
-
+    
 ## Uso
 
     Obtener el tipo de cambio del dólar del día actual:
@@ -15,9 +13,9 @@
         // { compra: 500.00, venta: 500.00 }
     });
 
-    Obtener el tipo de cambio del dólar de una fecha de inicio a una fecha final, formato DD/MM/YYYY:
+    Obtener el tipo de cambio del dólar de una fecha de inicio a una fecha final:
 
-    indicadoresEconomicosBCCR.getByDate("01/01/2018", "02/01/2018").then( tipoDeCambio => {
+    indicadoresEconomicosBCCR("01/01/2018", "02/01/2018").then( tipoDeCambio => {
         // { compra: 500.00, venta: 500.00 }
     });
 
