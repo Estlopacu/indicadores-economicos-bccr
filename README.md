@@ -12,13 +12,13 @@
     Obtener el tipo de cambio del dólar del día actual:
 
     indicadoresEconomicosBCCR.get().then( tipoDeCambio => {
-        // { compra: 561.21, venta: 566.82 }
+        // { compra: 500.00, venta: 500.00 }
     });
 
-    Obtener el tipo de cambio del dólar de una fecha de inicio a una fecha final:
+    Obtener el tipo de cambio del dólar de una fecha de inicio a una fecha final, formato DD/MM/YYYY:
 
-    indicadoresEconomicosBCCR.getByDate().then( tipoDeCambio => {
-        // { compra: 561.21, venta: 566.82 }
+    indicadoresEconomicosBCCR.getByDate("01/01/2018", "02/01/2018").then( tipoDeCambio => {
+        // { compra: 500.00, venta: 500.00 }
     });
 
 ## Meta
