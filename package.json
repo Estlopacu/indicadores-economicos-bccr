@@ -19,7 +19,7 @@
   "author": "Luis Esteban López Acuña",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "xmldom": "^0.1.27"
   }
 }
