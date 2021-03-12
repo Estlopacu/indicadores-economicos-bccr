@@ -20,6 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.5.0"
   }
 }
