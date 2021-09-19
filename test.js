@@ -1,11 +1,14 @@
 const indicadoresEconomicosBCCR = require('./index');
 
-indicadoresEconomicosBCCR().then((data) => {
+const email = '';
+const token = '';
+
+indicadoresEconomicosBCCR(email, token).then((data) => {
     console.log("Compra y Venta del día de hoy:");
     console.log(data);
 });
 
-indicadoresEconomicosBCCR('20/04/2018', '20/04/2018').then((data) => {
+indicadoresEconomicosBCCR(email, token, '20/09/2018', '20/09/2018').then((data) => {
     console.log("Compra y Venta por fecha:");
     console.log(data);
 });
